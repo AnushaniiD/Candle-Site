@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuxeLume Candles - Premium Handcrafted Candles</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>LuxeLume</h1>
+                <p>artisan candle atelier</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#collections">Collections</a></li>
+                    <li><a href="#craft">Our Craft</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li class="cart-icon"><a href="#cart"><i class="fas fa-shopping-bag"></i> <span class="cart-count">0</span></a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-image">
+            <!-- You can replace this with your own image -->
+            <img src="images/hero-candle.jpg" alt="LuxeLume premium candles">
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h2>Illuminate with Intention</h2>
+                <p>Handcrafted luxury candles infused with rare botanicals and essential oils</p>
+                <a href="#collections" class="btn">Discover</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="collections" id="collections">
+        <div class="container">
+            <h2 class="section-title">Signature Collections</h2>
+            <div class="products-grid">
+                <!-- Products will be loaded via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section class="craft" id="craft">
+        <div class="container">
+            <div class="craft-content">
+                <h2 class="section-title">The LuxeLume Artisanry</h2>
+                <p>Each LuxeLume candle is a testament to the art of slow craftsmanship. Our master chandlers pour each vessel by hand, using only the finest sustainable soy wax and premium essential oil blends.</p>
+                <p>We source our ingredients from ethical growers worldwide, ensuring each candle tells a story of global artisanship and environmental stewardship.</p>
+                <div class="craft-stats">
+                    <div class="stat">
+                        <span class="number">72</span>
+                        <span class="label">Hours of curing</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">100%</span>
+                        <span class="label">Natural ingredients</span>
+                    </div>
+                    <div class="stat">
+                        <span class="number">24</span>
+                        <span class="label">Hand-poured steps</span>
+                    </div>
+                </div>
+            </div>
+            <div class="craft-image">
+                <!-- You can replace this with your own image -->
+                <img src="images/craft-process.jpg" alt="LuxeLume candle making process">
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Patron Experiences</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"The Santal Noir candle transformed my living space into a sanctuary. The fragrance is complex and lingers beautifully."</p>
+                    <p class="author">- Eleanor R.</p>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"LuxeLume's attention to detail is unmatched. The vessels alone are works of art worth displaying."</p>
+                    <p class="author">- James L.</p>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>"The burn time exceeds all expectations. My Ambre candle has been burning evenly for months."</p>
+                    <p class="author">- Sophia K.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-form">
+                <h2 class="section-title">Become a Patron</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enquire</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Atelier Information</h3>
+                <p><i class="fas fa-envelope"></i> patronage@luxelume.com</p>
+                <p><i class="fas fa-phone"></i> +1 (212) 335-6789</p>
+                <p><i class="fas fa-map-marker-alt"></i> 451 Artisan Way, Brooklyn, NY</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>LuxeLume</h3>
+                    <p>Illuminating life's quiet moments since 2015.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Collections</h3>
+                    <ul>
+                        <li><a href="#collections">Signature</a></li>
+                        <li><a href="#collections">Seasonal</a></li>
+                        <li><a href="#collections">Limited Edition</a></li>
+                        <li><a href="#collections">Custom</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Commitments</h3>
+                    <ul>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Artisan Partners</a></li>
+                        <li><a href="#">Quality</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Patron Newsletter</h3>
+                    <form id="newsletterForm">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 LuxeLume Atelier. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Product Modal -->
+    <div class="modal" id="productModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-product-details">
+                <!-- Content will be loaded via JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
